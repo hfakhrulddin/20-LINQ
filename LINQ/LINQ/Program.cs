@@ -87,6 +87,8 @@ namespace LINQ
             Console.WriteLine(max);
             double average = numbers.Average(); // 5.5
             Console.WriteLine(average);
+            double last = numbers.Last(); // 5.5
+            Console.WriteLine(last);
 
             // the operators above also take an optional predicate
             int countEvensOnly = numbers.Count(number => number % 2 == 0);
